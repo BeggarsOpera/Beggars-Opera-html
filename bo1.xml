@@ -1036,9 +1036,12 @@ two hyphens.</p>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Lawyer be-knaves the Divine;</l>
                                         <l>And the Statesman, because he's so great,</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thinks his Trade as honest as mine.</l>
-
-                                        </span>
-                                       
+ 					</span>
+                                       <notatedMusic>                              
+                                            <xi:include href="10101mei.xml" xpointer="m-30"><!-- The xpointer must point to the <music> element in the MEI file -->
+                                                <xi:fallback>Missing File</xi:fallback>
+                                            </xi:include>      
+                                        </notatedMusic>   
                                     </div>
                                 </body>
                             </floatingText>
@@ -1143,7 +1146,8 @@ two hyphens.</p>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And Beauty must be fee'd into our
                                                 Arms.</l>
                                         </span>
-
+					 <xi:include href="10202mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>   
                                     </div>
                                 </body>
                             </floatingText>
@@ -1247,7 +1251,9 @@ two hyphens.</p>
                                         <l>The Youth in his Cart hath the Air of a Lord,</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And we cry, There dies an Adonis!</l>
                                     </span>
-                                    </div>
+                                    <xi:include href="10403mei.xml" xpointer="m-29">
+                                    <xi:fallback>Missing File</xi:fallback></xi:include>  
+					</div>
                                 </body>
                             </floatingText>
                         </sp>
@@ -1362,6 +1368,8 @@ two hyphens.</p>
                                         <l>Her Honour's sing'd, and then for Life,</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;She's----what I dare not name.</l>
                                         </span>
+					  <xi:include href="10404mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>      
                                     </div>
                                 </body>
                             </floatingText>
@@ -1447,7 +1455,8 @@ two hyphens.</p>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now here, now there; is bought, or is sold;</l>
                                         <l>And is current in every House.</l>
                                         </span>
-
+`					  <xi:include href="10505mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
                                     </div>
                                 </body>
                             </floatingText>
@@ -1585,7 +1594,8 @@ two hyphens.</p>
                                             enduring,</l>
                                         <l>Rots, stinks, and dies, and is trod under feet.</l>
                                         </span>
-                                       
+                                        <xi:include href="10706mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
                                         
                                     </div>
                                 </body>
@@ -1635,7 +1645,8 @@ two hyphens.</p>
                                             away.</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our Polly is a sad Slut, <hi style="font-style: normal">&amp;c</hi>.</l>
                                         </span>
-
+ 					<xi:include href="10807mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
                                     </div>
                                 </body>
                             </floatingText>
@@ -1735,7 +1746,8 @@ two hyphens.</p>
                                         <l>So I thought it both safest and best</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To marry, for fear you should chide.</l>
                                         </span>
-
+ 						<xi:include href="10808mei.xml" xpointer="m-32">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
                                     </div>
                                 </body>
                             </floatingText>
@@ -1805,7 +1817,8 @@ two hyphens.</p>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And he so pleas'd me,</l>
                                         <l>What I did, you must have done.</l>
                                         </span>
-
+					 <xi:include href="10809mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
                                     </div>
                                 </body>
                             </floatingText>
@@ -1877,6 +1890,8 @@ two hyphens.</p>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I ask no more,</l>
                                         <l>My All is in my Possession.</l>
                                         </span>
+					     <xi:include href="10810mei.xml" xpointer="m-28">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
                                     </div>
                                 </body>
                             </floatingText>
@@ -1956,6 +1971,8 @@ two hyphens.</p>
                                         <l>If Lawyer's Hand is fee'd, Sir,</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;He steals your whole Estate.</l>
                                         </span>
+				     <xi:include href="10911mei.xml" xpointer="m-29">
+                                       <xi:fallback>Missing File</xi:fallback></xi:include>  
                                     </div>
                                 </body>
                             </floatingText>
@@ -2091,7 +2108,8 @@ two hyphens.</p>
                                         <l>For on the Rope that hangs my Dear</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Depends poor <hi style="font-style: normal">Polly</hi>'s Life.</l>
                                         </span>
-
+				 <xi:include href="11012mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
                                         
                                     </div>
                                 </body>
@@ -2126,7 +2144,8 @@ two hyphens.</p>
                                         <l>Down she drops quite spent with sighing,</l>
                                         <l>Pair'd in Death, as pair'd in Love.</l>
                                         </span>
-
+ 					<xi:include href="11013mei.xml" xpointer="m-29">
+                                         <xi:fallback>Missing File</xi:fallback></xi:include>  
                                         
                                     </div>
                                 </body>
@@ -2269,6 +2288,8 @@ two hyphens.</p>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fondly let me loll!</l>
                                         <l style="text-indent: -4em"><speaker>Mach.</speaker>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O pretty, pretty <hi style="font-style: normal">Poll</hi>.</l>
                                         </span>
+					     <xi:include href="11314mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
                                     </div>
                                 </body>
                             </floatingText>
@@ -2310,6 +2331,8 @@ two hyphens.</p>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I chang'd ev'ry Hour,</l>
                                         <l>But here ev'ry Flower is united.</l>
                                         </span>
+					     <xi:include href="11315mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
                                     </div>
                                 </body>
                             </floatingText>
@@ -2360,12 +2383,9 @@ two hyphens.</p>
                                         <l style="text-indent: -4em"><speaker>Mach.</speaker>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If with me you'd fondly stray</l>
                         
                                         <l style="text-indent: -4em"><speaker>Polly.</speaker>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over the Hills and far away.</l>
-
-
-
-
-
                                         </span>
+					     <xi:include href="11316mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
                                     </div>
                                 </body>
                             </floatingText>
@@ -2398,7 +2418,7 @@ two hyphens.</p>
 
                             <floatingText xml:lang="eng">
                                 <body rendition="#codeblock">
-                                    <div type="song" n="16">
+                                    <div type="song" n="17">
                                         <head>AIR XVII. &nbsp;&nbsp;Gin thou wert mine awn thing----</head>
                                         <span rendition="#codeblock-lines">
 
@@ -2411,7 +2431,8 @@ two hyphens.</p>
                                         <l>Thus I tear thee from my bleeding Heart!</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fly hence, and let me leave thee.</l>
                                         </span>
-
+			 		<xi:include href="11317mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
                                         
                                     </div>
                                 </body>
@@ -2480,7 +2501,9 @@ two hyphens.</p>
                                         <l>But soon as out of Sight 'tis gone,</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whines, whimpers, sobs and cries.</l>
                                         </span>
-                                    </div>
+                                     <xi:include href="11318mei.xml" xpointer="m-29">
+                                            <xi:fallback>Missing File</xi:fallback></xi:include>  
+					</div>
                                 </body>
                             </floatingText>
                         </sp>
