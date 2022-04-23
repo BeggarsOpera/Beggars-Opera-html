@@ -1027,7 +1027,7 @@ two hyphens.</p>
                                         <head>AIR I. &nbsp;&nbsp;An old Woman cloathed in Gray, <hi
                                                 rend="italics">&amp;c.</hi></head>
                                      
-                                     <span rendition="notation">
+                                     <span rendition="#codeblock">
                                         <l>THROUGH all the Employments of Life</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each Neighbour abuses his Brother;</l>
                                         <l>Whore and Rogue they call Husband and Wife:</l>
@@ -1042,6 +1042,7 @@ two hyphens.</p>
                                                 <xi:fallback>Missing File</xi:fallback>
                                             </xi:include>      
                                         </notatedMusic>   
+			            <div id="notation"></div>
                                     </div>
                                 </body>
                             </floatingText>
