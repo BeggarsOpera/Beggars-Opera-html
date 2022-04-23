@@ -2,10 +2,9 @@
 <?xml-model href="https://www.music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://www.music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink"
-<?xml version="1.0" encoding="UTF-16" ?>
-<mei xml:id="m-1" meiversion="3.0.0" xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink">
-<meiHead xml:id="m-2">
-    <fileDesc xml:id="m-3">
+    meiversion="3.0.0">
+    <meiHead>
+      <fileDesc xml:id="m-3">
         <titleStmt xml:id="m-4">
             <title xml:id="m-10">A C T I.</title>
             <title xml:id="m-11" type="subtitle">AIR I.  An old woman cloathed in gray.</title>
