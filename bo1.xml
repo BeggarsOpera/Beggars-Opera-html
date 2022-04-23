@@ -1027,7 +1027,7 @@ two hyphens.</p>
                                         <head>AIR I. &nbsp;&nbsp;An old Woman cloathed in Gray, <hi
                                                 rend="italics">&amp;c.</hi></head>
                                      
-                                     <span rendition="#codeblock">
+                                     <span rendition="#codeblock-lines">
                                         <l>THROUGH all the Employments of Life</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each Neighbour abuses his Brother;</l>
                                         <l>Whore and Rogue they call Husband and Wife:</l>
@@ -1037,12 +1037,9 @@ two hyphens.</p>
                                         <l>And the Statesman, because he's so great,</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thinks his Trade as honest as mine.</l>
  					</span>
-                                       <notatedMusic>                              
-                                            <xi:include href="10101mei.xml" xpointer="m-30"><!-- The xpointer must point to the <music> element in the MEI file -->
-                                                <xi:fallback>Missing File</xi:fallback>
-                                            </xi:include>      
-                                        </notatedMusic>   
-			            <div id="notation"></div>
+                                       <notatedMusic>  
+					    <div id="notation"></div> 
+                                        </notatedMusic> 
                                     </div>
                                 </body>
                             </floatingText>
