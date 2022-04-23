@@ -7,7 +7,7 @@
             let tk = new verovio.toolkit();
             console.log("Verovio has loaded!");
 
-            fetch("https://www.verovio.org/examples/downloads/Schubert_Lindenbaum.mei")
+            fetch("https://raw.githubusercontent.com/BeggarsOpera/CeTEIcean/master/test.mei")
               .then( (response) => response.text() )
               .then( (meiXML) => {
                 let svg = tk.renderData(meiXML, {});
