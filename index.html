@@ -14,25 +14,25 @@
             });</script>
             <script src="https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js" defer></script>
         <script>
-          document.addEventListener("DOMContentLoaded", (event) => {
-              Module.onRuntimeInitialized = async _ => {
-                let tk = new verovio.toolkit();
-                console.log("Verovio has loaded!");
-                tk.setOptions({
-                  scale: 30,
-                  landscape: true,
-                  adjustPageWidth: true
-                });
-                tk.renderToSVG
-                console.log("Verovio options:", tk.getOptions());
-                fetch("https://raw.githubusercontent.com/BeggarsOpera/CeTEIcean/master/test.mei")
-                  .then( (response) => response.text() )
-                  .then( (meiXML) => {
-                    let svg = tk.renderData(meiXML, {});
-                    document.getElementById("notation").innerHTML = svg;
-                  });
-              }
-          });
+              document.addEventListener("DOMContentLoaded", (event) => {
+                  Module.onRuntimeInitialized = async _ => {
+                    let tk = new verovio.toolkit();
+                    console.log("Verovio has loaded!");
+                    tk.setOptions({
+                      scale: 30,
+                      landscape: true,
+                      adjustPageWidth: true
+                    });
+                    tk.renderToSVG
+                    console.log("Verovio options:", tk.getOptions());
+                    fetch("https://raw.githubusercontent.com/BeggarsOpera/CeTEIcean/master/test.mei")
+                      .then( (response) => response.text() )
+                      .then( (meiXML) => {
+                        let svg = tk.renderData(meiXML, {});
+                        document.getElementById("notation").innerHTML = svg;
+                      });
+                  }
+              });
     </head>
     <body> </body>
 </html>
