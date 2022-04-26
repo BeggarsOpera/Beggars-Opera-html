@@ -27,7 +27,7 @@
                         console.log("Verovio options:", tk.getOptions());
 
 
-                        fetch("https://raw.githubusercontent.com/BeggarsOpera/CeTEIcean/master/test.mei")
+                        fetch("https://raw.githubusercontent.com/BeggarsOpera/CeTEIcean/master/testmei.xml")
                             .then((response) => response.text())
                             .then((meiXML) => {
                                 let svg = tk.renderData(meiXML, {});
