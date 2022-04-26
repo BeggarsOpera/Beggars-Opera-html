@@ -1037,8 +1037,11 @@ two hyphens.</p>
                                         <l>And the Statesman, because he's so great,</l>
                                         <l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thinks his Trade as honest as mine.</l>
  					</span>
-                                       <notatedMusic>  
-					    <div id="notation"></div> 
+				        <notatedMusic>
+                                        <xi:include href="10101.mei" xpointer="m-30"><!-- The xpointer must point to the <music> element in the MEI file -->
+                                        <xi:fallback>Missing File</xi:fallback>
+                                        </xi:include>        
+					<div id="notation"></div> 
                                         </notatedMusic> 
                                     </div>
                                 </body>
