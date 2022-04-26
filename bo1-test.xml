@@ -1037,8 +1037,9 @@ two hyphens.</p>
                                        <notatedMusic>                              
                                             <xi:include href="10101mei.xml" xpointer="m-30"><!-- The xpointer must point to the <music> element in the MEI file -->
                                                 <xi:fallback>Missing File</xi:fallback>
-                                            </xi:include>      
-                                        </notatedMusic>   
+                                            </xi:include>  
+					<div id="notation"></div> 
+                                        </notatedMusic> 
                                     </div>
                                 </body>
                             </floatingText>
