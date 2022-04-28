@@ -15,7 +15,7 @@
             console.log("Verovio options:", tk.getOptions());
 
 
-            fetch("10101.mei").then((response) => response.text()).then((meiXML) => {
+            fetch("https://github.com/BeggarsOpera/CeTEIcean/blob/317095d01c375beb7e103ed1ca6abe0bd27df6f6/10101.mei").then((response) => response.text()).then((meiXML) => {
                         let svg = tk.renderData(meiXML, {
                         });
                         document.getElementById("SCORE_1").innerHTML = "<tei-div>" + svg + "</tei-div>";
