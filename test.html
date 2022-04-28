@@ -15,12 +15,11 @@
             console.log("Verovio options:", tk.getOptions());
 
 
-            fetch("https://raw.githubusercontent.com/BeggarsOpera/CeTEIcean/master/test.mei")
-              .then( (response) => response.text() )
-              .then( (meiXML) => {
-                let svg = tk.renderData(meiXML, {});
-                document.getElementById("notation").innerHTML = svg;
-              });
+            fetch("10101.mei").then((response) => response.text()).then((meiXML) => {
+                        let svg = tk.renderData(meiXML, {
+                        });
+                        document.getElementById("SCORE_1").innerHTML = "<tei-div>" + svg + "</tei-div>";
+                    });
           }
       });
     </script>
