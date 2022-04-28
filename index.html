@@ -12,30 +12,28 @@
             c.getHTML5('bo1-test.xml', function (data) {
                 document.getElementsByTagName("body")[0].appendChild(data);
             });</script>
-            <script src="https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js" defer></script>
-            <script>
-                document.addEventListener("DOMContentLoaded", (event) => {
-                    Module.onRuntimeInitialized = async _ => {
-                        let tk = new verovio.toolkit();
-                        console.log("Verovio has loaded!");
-                        tk.setOptions({
-                            scale: 20,
-                            landscape: true,
-                            adjustPageWidth: true
+        <script src="https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js" defer></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", (event) => {
+                Module.onRuntimeInitialized = async _ => {
+                    let tk = new verovio.toolkit();
+                    console.log("Verovio has loaded!");
+                    tk.setOptions({
+                        scale: 20,
+                        landscape: true,
+                        adjustPageWidth: true
+                    });
+                    tk.renderToSVG
+                    console.log("Verovio options:", tk.getOptions());
+                    
+                  
+                    fetch("10101.mei").then((response) => response.text()).then((meiXML) => {
+                        let svg = tk.renderData(meiXML, {
                         });
-                        tk.renderToSVG
-                        console.log("Verovio options:", tk.getOptions());
-
-
-                        fetch("https://raw.githubusercontent.com/BeggarsOpera/CeTEIcean/master/testmei.xml")
-                            .then((response) => response.text())
-                            .then((meiXML) => {
-                                let svg = tk.renderData(meiXML, {});
-                                document.getElementById("notation").innerHTML = svg;
-                            });
-                    }
-                });
-            </script>
+                        document.getElementById("SCORE_1").innerHTML = "<tei-div>" + svg + "</tei-div>";
+                    });
+                }
+            });</script>
     </head>
     <body> </body>
 </html>
