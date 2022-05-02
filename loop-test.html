@@ -13,7 +13,7 @@
                 document.getElementsByTagName("body")[0].appendChild(data);
             });</script>
     </head>
-    <body> </body>
+    <body>
             <script src="https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js" defer></script>
         <script>
             document.addEventListener("DOMContentLoaded", (event) => {
@@ -32,7 +32,7 @@
                     const scoreArray = ["SCORE_1", "SCORE_2", "SCORE_3", "SCORE_4"];
                     console.log(i)
                     
-                    for (var i = 0; i < meiArray.length; i++) {
+                    for (let i = 0; i < meiArray.length; i++) {
                         fetch(meiArray[i]).then((response) => response.text()).then((meiXML) => {
                             let svg = tk.renderData(meiXML, {
                             });
@@ -45,4 +45,5 @@
             );
         
         </script>
+    </body>
 </html>
