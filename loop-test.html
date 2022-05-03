@@ -27,12 +27,15 @@
                     });
                     tk.renderToSVG
                     console.log("Verovio options:", tk.getOptions());
-                                          
+
+                    
+                    for (var i = 0; i < meiArray.length; i++) {
+                                                                  
+                        
                     const meiArray = ["10101.mei", "10202.mei", "10403.mei", "10404.mei"];
                     const scoreArray = ["SCORE_1", "SCORE_2", "SCORE_3", "SCORE_4"];
                     console.log(i)
-                    
-                    for (var i = 0; i < meiArray.length; i++) {
+                        
                         fetch(meiArray[i]).then((response) => response.text()).then((meiXML) => {
                             let svg = tk.renderData(meiXML, {
                             });
