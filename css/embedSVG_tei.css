@@ -331,14 +331,6 @@ tei-titlepage {
 }
 
 
-img {
-    
-    width: 880px;
-    background-color: #ffffff;
-    margin: auto;
-     
-}
-
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -450,6 +442,16 @@ img {
 @media only screen and (min-width : 992px) {
 
 
+    img {
+    
+    width: 880px;
+    background-color: #ffffff;
+    margin: auto;
+     
+}
+
+
+    
     tei-text {
         display: block;
         width: 70%;
@@ -567,6 +569,17 @@ img {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+        img {
+
+        width: 880px;
+        background-color: #ffffff;
+        margin: auto;
+
+        }
+
+
+    
+    
  tei-text {
         display: block;
         width: 50%;
