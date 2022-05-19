@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beggar's Opera</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/embedSVG_tei.css">
+        <script src="js/CETEI.js"></script>
+        <script>
+            let c = new CETEI();
+            c.getHTML5('embedSVG_bo1.xml', function (data) {
+                document.getElementsByTagName("body")[0].appendChild(data);
+            });</script>
+        
+        
+        
+        <script>
+            setTimeout(myFunction, 1000);
+
+            function myFunction() {
+            
+                document.getElementById("SCORE_1").innerHTML = "<img src=10101.svg alt=1_score />";
+                document.getElementById("SCORE_2").innerHTML = "<img src=10101.svg alt=2_score />";
+                document.getElementById("SCORE_3").innerHTML = "<img src=10101.svg alt=3_score />";
+                document.getElementById("SCORE_4").innerHTML = "<img src=10101.svg alt=4_score />";
+            
+}
+             
+             
+            //document.getElementById("SCORE_1").innerHTML = "<img src=&quot;10101.svg&quot; alt=&quot;1st score&quot;/>" ;
+            //document.getElementById("SCORE_1").innerHTML = <img src="10101.svg" alt="1st score"/> ;
+            
+                         
+        </script>
+        
+        
+        
+        
+        
+        
+        
+        
+    </head>
+    <body> </body>
+</html>
