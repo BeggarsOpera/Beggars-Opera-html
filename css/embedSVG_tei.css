@@ -1,12 +1,12 @@
 
  img {
     
-    width: 40em;
+    display: grid;
+    max-width: 880px; 
     background-color: #ffffff;
     margin: auto;
-     
+    align-content: center;
 }
-
 
 p.break {
     font-family: Arial, Helvetica, sans-serif;
