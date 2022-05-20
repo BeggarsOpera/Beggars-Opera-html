@@ -1,13 +1,4 @@
 
- img {
-    
-    width: 40em;
-    background-color: #ffffff;
-    margin: auto;
-     
-}
-
-
 p.break {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80%;
@@ -41,24 +32,15 @@ tei-closer > tei-signed {
     text-align: right;
 }
 
-tei-div1, tei-div2 {
+
+
+tei-div {
     display: block;
 }
 
 
 
-tei-div1[type = introduction] > tei-head {
-    display: block;
-    font-size: 140%;
-    font-weight: bold;
-    padding-top: 3em;
-    padding-bottom: 1em;
-    text-align: center;
-
-}
-
-
-tei-div1[type = act] > tei-head {
+tei-div[type = introduction] > tei-head {
     display: block;
     font-size: 140%;
     font-weight: bold;
@@ -69,7 +51,18 @@ tei-div1[type = act] > tei-head {
 }
 
 
-tei-div2[type = scene] > tei-head {
+tei-div[type = act] > tei-head {
+    display: block;
+    font-size: 140%;
+    font-weight: bold;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    text-align: center;
+
+}
+
+
+tei-div[type = scene] > tei-head {
     display: block;
     font-size: 140%;
     font-weight: bold;
@@ -80,19 +73,19 @@ tei-div2[type = scene] > tei-head {
 }
 
 
-tei-div1[type = act] {
+tei-div[type = act] {
     border-bottom: 1px solid #999;
     padding-bottom: 1em;
 }
 
 
-tei-div1[type = introduction] {
+tei-div[type = introduction] {
     border-bottom: 1px solid #999;
     padding-bottom: 1em;
 }
 
 
-tei-div1[type = dramatis] {
+tei-div[type = dramatis] {
     border-bottom: 1px solid #999;
     padding-bottom: 1em;
 }
@@ -188,12 +181,6 @@ tei-p {
 }
 
 
-tei-set {
-    
-    display: none;
-}
-
-
 tei-sp {
     display: block;
     padding-bottom: 1em;
@@ -235,6 +222,14 @@ tei-titlepage {
 
 }
 
+img {
+    
+    width: 880px;
+    background-color: #ffffff;
+    margin: auto;
+     
+}
+
 
 
 /* Media Queries */
@@ -262,7 +257,7 @@ tei-titlepage {
         width: 100%;
     }
 
-    tei-div1[type = dramatis] > tei-head {
+    tei-div[type = dramatis] > tei-head {
         display: block;
         font-size: 1em;
         font-weight: bold;
@@ -342,8 +337,6 @@ tei-titlepage {
 
 
 
-
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width : 600px) {
 
@@ -360,7 +353,7 @@ tei-titlepage {
     }
 
 
-    tei-table {
+ tei-table {
         display: block;
         margin-top: 2em;
         margin-bottom: 2em;
@@ -371,7 +364,7 @@ tei-titlepage {
         width: 100%;
     }
 
-    tei-div1[type = dramatis] > tei-head {
+    tei-div[type = dramatis] > tei-head {
         display: block;
         font-size: 1em;
         font-weight: bold;
@@ -473,35 +466,15 @@ tei-titlepage {
         width: 100%;
     }
 
-    tei-div1[type = dramatis] > tei-head {
-        display: block;
-        font-size: 140%;
-        font-weight: bold;
-        padding-top: 3em;
-        padding-bottom: 1em;
-        text-align: center;
+tei-div[type = dramatis] > tei-head {
+    display: block;
+    font-size: 140%;
+    font-weight: bold;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    text-align: center;
     
     }
-    
-    tei-div2[type = musical_score] > tei-head {
-        display: block;
-        font-size: 120%;
-        font-weight: normal;
-        padding-top: 2em;
-        padding-bottom: 1em;
-        text-align: center;
-    
-    }
-
-    tei-div1[type = musical_scores] > tei-head {
-            display: block;
-            font-size: 140%;
-            font-weight: bold;
-            padding-top: 3em;
-            padding-bottom: 1em;
-            text-align: center;
-        
-        }
 
     tei-floatingText {
         display: block;
@@ -590,23 +563,13 @@ tei-titlepage {
         width: 100%;
     }
 
-    tei-div1[type = dramatis] > tei-head {
-        display: block;
-        font-size: 140%;
-        font-weight: bold;
-        padding-top: 3em;
-        padding-bottom: 1em;
-        text-align: center;
-        
-        }
-        
-    tei-div2[type = musical_score] > tei-head {
-        display: block;
-        font-size: 120%;
-        font-weight: normal;
-        padding-top: 2em;
-        padding-bottom: 1em;
-        text-align: center;
+tei-div[type = dramatis] > tei-head {
+    display: block;
+    font-size: 140%;
+    font-weight: bold;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    text-align: center;
     
     }
 
