@@ -5951,19 +5951,41 @@ two hyphens.</p>
                             </body>
                         </floatingText>
 
-                        <stage style="text-align: center">FINIS.</stage>
+                        <trailer style="text-align: center" type="trailer1">FINIS.</trailer>
                     </div2>
 
-
+                    
                 </div1>
             
-            <!-- Add Ouverture here -->
             
-            <div1 type="musical_scores" xml:id="SCORES">
+            
+            <div1 type="musical_scores" xml:id="SCORES1">
+                
+                <head>OUVERTURE in SCORE</head>
+                <!-- Composed by Dr. PEPUSCH.-->
+                
+                
+                <div2 type="musical_score">
+                    
+                    
+                    
+                    <notatedMusic xml:id="OUVERTURE" type="score" >
+                    </notatedMusic>
+                    
+                </div2>
+            
+            </div1>
+            
+            
+            <div1 type="musical_scores" xml:id="SCORES2">
                 
                 <head>SONGS in the BEGGAR's OPERA.</head>
                 
-                <div2 type="musical_score">
+             <div2 type="scores_by_act" xml:id="sba1">   
+                 
+                 <head>ACT I.</head>
+                
+                <div3 type="musical_score">
                 
                     <head>AIR I. &nbsp;&nbsp;An old Woman cloathed in Gray, <hi
                         rend="italics">&amp;c.</hi></head>
@@ -5971,9 +5993,9 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_1" type="score" >
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                 
                     <head>AIR II. &nbsp;&nbsp;The bonny gray-ey'd Morn, <hi
                         rend="italics">&amp;c.</hi></head>
@@ -5981,9 +6003,9 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_2" type="score">   
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                     
-                 <div2 type="musical_score">
+                 <div3 type="musical_score">
                 
                     <head>AIR III. &nbsp;&nbsp;Cold and Raw, <hi rend="italics"
                         >&amp;c.</hi></head>
@@ -5991,9 +6013,9 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_3" type="score"> 
                     </notatedMusic>
                      
-                 </div2>
+                 </div3>
                         
-                 <div2 type="musical_score">
+                 <div3 type="musical_score">
                 
                     <head>AIR IV. &nbsp;&nbsp;Why is your faithful Slave disdain'd?
                         <hi rend="italics">&amp;c</hi></head>
@@ -6001,18 +6023,18 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_4" type="score"> 
                     </notatedMusic>
                      
-                 </div2>
+                 </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR V. &nbsp;&nbsp;Of all the simple Things we do, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_5" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR VI. &nbsp;&nbsp;What shall I do to show how much I love her,
                         <hi rend="italics">&amp;c</hi>.</head>
@@ -6021,45 +6043,45 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_6" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR VII. &nbsp;&nbsp;Oh <hi rend="italics">London</hi> is a fine Town.</head>
                     
                     <notatedMusic xml:id="SCORE_7" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR VIII. &nbsp;&nbsp;Grim King of the Ghosts, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_8" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR IX. &nbsp;&nbsp;O Jenny, O Jenny, where hast thou been.</head>
                     
                     <notatedMusic xml:id="SCORE_9" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR X. &nbsp;&nbsp;Thomas, I cannot, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_10" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XI. &nbsp;&nbsp;A Soldier and a Sailor.</head>
                     
@@ -6067,45 +6089,45 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_11" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XII. &nbsp;&nbsp;Now ponder well, ye Parents dear.</head>
                     
                     <notatedMusic xml:id="SCORE_12" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XIII. &nbsp;&nbsp;Le printemps rappelle aux armes.</head>
                     
                     <notatedMusic xml:id="SCORE_13" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XIV. &nbsp;&nbsp;Pretty Parrot, say----</head>
                     
                     <notatedMusic xml:id="SCORE_14" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XV. &nbsp;&nbsp;Pray, Fair One, be kind----</head>
                     
                     <notatedMusic xml:id="SCORE_15" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XVI. &nbsp;&nbsp;Over the Hills and far away.</head>
                     
@@ -6113,36 +6135,46 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_16" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XVII. &nbsp;&nbsp;Gin thou wert mine awn thing----</head>
                     
                     <notatedMusic xml:id="SCORE_17" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score" xml:id="ms18">
                     
                     <head>AIR XVIII. &nbsp;&nbsp;O the Broom, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_18" type="score"> 
                     </notatedMusic>
+                 
+                 
                     
-                </div2>
+                </div3>
+                 
+                 <trailer style="text-align: center" type="trailer2">End of First Act.</trailer>
+                 
+             </div2>
                 
-                <div2 type="musical_score">
+             <div2 type="scores_by_act" xml:id="sba2">
+                 
+                 <head>ACT II.</head>
+                
+                <div3 type="musical_score">
                     
                     <head>AIR XIX. &nbsp;&nbsp;Fill ev'ry Glass, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_19" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XX.&nbsp;&nbsp; March in Rinaldo, with Drums and
                         Trumpets.</head>
@@ -6150,36 +6182,36 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_20" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXI. &nbsp;&nbsp;Would you have a Young Virgin, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_21" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXII. &nbsp;&nbsp;Cotillon.</head>
                     
                     <notatedMusic xml:id="SCORE_22" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXIII. &nbsp;&nbsp;All in a misty Morning, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_23" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXIV. &nbsp;&nbsp;When once I lay with another Man's Wife,
                         <hi rend="italics">&amp;c</hi>. </head>
@@ -6187,9 +6219,9 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_24" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXV. &nbsp;&nbsp;When first I laid Siege to my Chloris,
                         <hi rend="italics">&amp;c</hi>. </head>
@@ -6197,9 +6229,9 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_25" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXVI. &nbsp;&nbsp;Courtiers, Courtiers think it no harm,
                         <hi rend="italics">&amp;c</hi>.</head>
@@ -6207,18 +6239,18 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_26" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXVII. &nbsp;&nbsp;A lovely Lass to a Friar came, <hi rend="italics">&amp;c</hi>. </head>
                     
                     <notatedMusic xml:id="SCORE_27" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXVIII. &nbsp;&nbsp;'Twas when the Sea was roaring, <hi rend="italics">&amp;c</hi>. </head>
                     
@@ -6226,18 +6258,18 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_28" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXIX. &nbsp;&nbsp;The Sun had loos'd his weary Teams, <hi rend="italics">&amp;c</hi>. </head>
                     
                     <notatedMusic xml:id="SCORE_29" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXX. &nbsp;&nbsp;How happy are we, <hi rend="italics">&amp;c</hi>. </head>
                     
@@ -6245,45 +6277,45 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_30" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXXI. &nbsp;&nbsp;Of a noble Race was <hi rend="italics">Shenkin</hi>. </head>
                     
                     <notatedMusic xml:id="SCORE_31" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXXII.</head>
                     
                     <notatedMusic xml:id="SCORE_32" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXXIII. &nbsp;&nbsp;<hi rend="italics">London</hi> Ladies.</head>
                     
                     <notatedMusic xml:id="SCORE_33" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXXIV. &nbsp;&nbsp;All in the Downs, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_34" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXXV. &nbsp;&nbsp;Have you heard of a frolicksome Ditty,
                         <hi rend="italics">&amp;c</hi>.</head>
@@ -6292,9 +6324,9 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_35" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXXVI. &nbsp;&nbsp;Irish Trot.</head>
                     
@@ -6303,109 +6335,117 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_36" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXXVII.</head>
                     
                     <notatedMusic xml:id="SCORE_37" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXXVIII. &nbsp;&nbsp;Good-morrow, Gossip <hi rend="italics">Joan</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_38" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XXXIX. &nbsp;&nbsp;<hi rend="italics">Irish</hi> Howl.</head>
                     
                     <notatedMusic xml:id="SCORE_39" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score" xml:id="ms40">
                     
                     <head>AIR XL. &nbsp;&nbsp;The Lass of <hi rend="italics">Patie'</hi>s Mill, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_40" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
+                 
+                 <trailer style="text-align: center" type="trailer3">End of Second Act.</trailer>
+                 
+             </div2>
+                
+             <div2 type="scores_by_act" xml:id="sba3">
+                 
+                 <head>ACT III.</head>
                 
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XLI. &nbsp;&nbsp;If Loves a sweet Passion, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_41" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XLII. &nbsp;&nbsp;<hi rend="italics">South-Sea</hi> Ballad.</head>
                     
                     <notatedMusic xml:id="SCORE_42" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XLIII. &nbsp;&nbsp;<hi rend="italics">Packington</hi>s Pound.</head>
                     
                     <notatedMusic xml:id="SCORE_43" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XLIV. &nbsp;&nbsp;Lillibullero.</head>
                     
                     <notatedMusic xml:id="SCORE_44" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XLV. &nbsp;&nbsp;Down in the North Country, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_45" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XLVI. &nbsp;&nbsp;A Shepherd kept Sheep, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_46" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XLVII. &nbsp;&nbsp;One Evening, having lost my Way, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_47" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XLVIII. &nbsp;&nbsp;Now Roger, Ill tell thee, because thou'rt my
                         Son.</head>
@@ -6413,90 +6453,90 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_48" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR XLIX. &nbsp;&nbsp;O Bessy Bell.</head>
                     
                     <notatedMusic xml:id="SCORE_49" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR L. &nbsp;&nbsp;Would Fate to me <hi rend="italics">Belinda</hi> give</head>
                     
                     <notatedMusic xml:id="SCORE_50" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LI. &nbsp;&nbsp;Come, sweet Lass, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_51" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LII. &nbsp;&nbsp;The last time I went o'er the Moor.</head>
                     
                     <notatedMusic xml:id="SCORE_52" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LIII. &nbsp;&nbsp;Tom Tinkers my true Love.</head>
                     
                     <notatedMusic xml:id="SCORE_53" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LIV. &nbsp;&nbsp;I am a poor Shepherd undone.</head>
                     
                     <notatedMusic xml:id="SCORE_54" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LV. &nbsp;&nbsp;Ianthe the lovely, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_55" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LVI. &nbsp;&nbsp;A Cobler there was, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_56" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LVII. &nbsp;&nbsp;Bonny <hi rend="italics">Dundee</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_57" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LVIII. &nbsp;&nbsp;Happy Groves.</head>
                     
@@ -6504,109 +6544,111 @@ two hyphens.</p>
                     <notatedMusic xml:id="SCORE_58" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LIX. &nbsp;&nbsp;Of all the Girls that are so smart.</head>
                     
                     <notatedMusic xml:id="SCORE_59" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LX. &nbsp;&nbsp;Britons strike home.</head>
                     
                     <notatedMusic xml:id="SCORE_60" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LXI. &nbsp;&nbsp;Chevy Chase.</head>
                     
                     <notatedMusic xml:id="SCORE_61" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LXII. &nbsp;&nbsp;To old Sir Simon the King.</head>
                     
                     <notatedMusic xml:id="SCORE_62" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LXIII. &nbsp;&nbsp;Joy to great Caesar.</head>
                     
                     <notatedMusic xml:id="SCORE_63" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LXIV. &nbsp;&nbsp;There was an Old Woman.</head>
                     
                     <notatedMusic xml:id="SCORE_64" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LXV. &nbsp;&nbsp;Did you ever hear of a gallant Sailor.</head>
                     
                     <notatedMusic xml:id="SCORE_65" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LXVI. &nbsp;&nbsp;Why are mine Eyes still flowing.</head>
                     
                     <notatedMusic xml:id="SCORE_66" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LXVII. &nbsp;&nbsp;Green Sleeves.</head>
                     
                     <notatedMusic xml:id="SCORE_67" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LXVIII. &nbsp;&nbsp;All you that must take a Leap, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_68" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <div2 type="musical_score">
+                <div3 type="musical_score">
                     
                     <head>AIR LXIX. &nbsp;&nbsp;Lumps of Pudding, <hi rend="italics">&amp;c</hi>.</head>
                     
                     <notatedMusic xml:id="SCORE_69" type="score"> 
                     </notatedMusic>
                     
-                </div2>
+                </div3>
                 
-                <!-- add additional scores here...up to score 69 -->
                 
+                
+             </div2>
+                <trailer style="text-align: center" type="trailer4">FINIS.</trailer>
                 
             </div1>
             
