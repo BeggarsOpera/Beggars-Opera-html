@@ -5962,7 +5962,8 @@ two hyphens.</p>
             <div1 type="musical_scores" xml:id="SCORES1">
                 
                 <head>OUVERTURE in SCORE</head>
-                <!-- Composed by Dr. PEPUSCH.-->
+                <opener>Composed by Dr. PEPUSCH.</opener>
+                
                 
                 
                 <div2 type="musical_score">
